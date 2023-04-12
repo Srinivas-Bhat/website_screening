@@ -1,0 +1,91 @@
+{
+"data": {
+    "value": {
+      "domain_information": {
+        "base_url": "https://sms24.me",
+        "website_exists": "true",
+        "robots_txt": "https://sms24.me/robots.txt",
+        "sitemap_xml": "https://sms24.me/sitemap.xml",
+        "ads_txt": null,
+        "whois_information": {
+          "domain_id": "D425500000071487393-AGRS",
+          "domain_name": [
+            "SMS24.ME",
+            "sms24.me"
+          ],
+          "creation_date": "2018-11-11 18:19:47",
+          "updated_date": [
+            "2022-11-12 10:28:19",
+            "2022-11-12 10:28:17"
+          ],
+          "expiration_date": "2024-11-11 18:19:47",
+          "registrar": "GoDaddy.com, LLC",
+          "status": [
+            "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+            "clientRenewProhibited https://icann.org/epp#clientRenewProhibited",
+            "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+            "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited"
+          ],
+          "registrant_id": "CR346156931",
+          "registrant_name": "Registration Private",
+          "registrant_org": "Domains By Proxy, LLC",
+          "registrant_address": null,
+          "registrant_address2": null,
+          "registrant_address3": null,
+          "registrant_city": "Tempe",
+          "registrant_state_province": "Arizona",
+          "registrant_country": null,
+          "registrant_postal_code": "85284",
+          "registrant_phone": "+1.4806242599",
+          "registrant_phone_ext": null,
+          "registrant_fax": "+1.4806242598",
+          "registrant_fax_ext": null,
+          "registrant_email": null,
+          "admin_id": "CR346156933",
+          "admin_name": "Registration Private",
+          "admin_org": "Domains By Proxy, LLC",
+          "admin_address": null,
+          "admin_address2": null,
+          "admin_address3": null,
+          "admin_city": "Tempe",
+          "admin_state_province": "Arizona",
+          "admin_country": null,
+          "admin_postal_code": "85284",
+          "admin_phone": "+1.4806242599",
+          "admin_phone_ext": null,
+          "admin_fax": "+1.4806242598",
+          "admin_fax_ext": null,
+          "admin_email": null,
+          "tech_id": "CR346156932",
+          "tech_name": "Registration Private",
+          "tech_org": "Domains By Proxy, LLC",
+          "tech_address": null,
+          "tech_address2": null,
+          "tech_address3": null,
+          "tech_city": "Tempe",
+          "tech_state_province": "Arizona",
+          "tech_country": null,
+          "tech_postal_code": "85284",
+          "tech_phone": "+1.4806242599",
+          "tech_phone_ext": null,
+          "tech_fax": "+1.4806242598",
+          "tech_fax_ext": null,
+          "tech_email": null,
+          "name_servers": null
+        },
+        "ssl": null,
+        "social_media": [
+          {
+            "url": "https://gamebit.me",
+            "media": "telegram"
+          },
+          {
+            "url": "https://t.me/sms24me",
+            "media": "telegram"
+          }
+        ]
+      },
+      "fraud_urls_found": []
+    }
+  }
+}

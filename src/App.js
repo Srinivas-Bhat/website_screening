@@ -31,11 +31,33 @@ const theme = createTheme({
 
 function App() {
   const [apiData, setApiData] = useState(null);
+  const [apiDataCompleted, setApiDataCompleted] = useState(null);
+  const [stateLoading, setStateLoading] = useState(false);
   return (
     <ThemeProvider theme={theme}>
       <Routes>
-        <Route path="/" element={<PageHome setApiData={setApiData} />} />
-        <Route path="/results" element={<PageResults />} />
+        <Route
+          path="/"
+          element={
+            <PageHome
+              setApiData={setApiData}
+              apiData={apiData}
+              setApiDataCompleted={setApiDataCompleted}
+              setStateLoading={setStateLoading}
+              stateLoading={stateLoading}
+            />
+          }
+        />
+        <Route
+          path="/results"
+          element={
+            <PageResults
+              apiData={apiData}
+              setApiData={setApiData}
+              apiDataCompleted={apiDataCompleted}
+            />
+          }
+        />
       </Routes>
     </ThemeProvider>
   );

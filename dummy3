@@ -1,0 +1,68 @@
+{
+  "data": {
+    "value": {
+      "domain_information": {
+        "base_url": "https://www.emailondeck.com/",
+        "website_exists": "true",
+        "robots_txt": null,
+        "sitemap_xml": null,
+        "ads_txt": null,
+        "whois_information": {
+          "domain_name": "EMAILONDECK.COM",
+          "registrar": "DYNADOT LLC",
+          "whois_server": "whois.dynadot.com",
+          "referral_url": null,
+          "updated_date": [
+            "2022-06-26 07:37:09",
+            "2019-12-11 20:30:24"
+          ],
+          "creation_date": "2015-06-22 04:43:22",
+          "expiration_date": "2023-06-22 04:43:22",
+          "name_servers": [
+            "NS10.DNSMADEEASY.COM",
+            "NS11.DNSMADEEASY.COM",
+            "NS12.DNSMADEEASY.COM",
+            "NS13.DNSMADEEASY.COM",
+            "NS14.DNSMADEEASY.COM",
+            "NS15.DNSMADEEASY.COM",
+            "ns10.dnsmadeeasy.com",
+            "ns11.dnsmadeeasy.com",
+            "ns12.dnsmadeeasy.com",
+            "ns13.dnsmadeeasy.com",
+            "ns14.dnsmadeeasy.com",
+            "ns15.dnsmadeeasy.com"
+          ],
+          "status": [
+            "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+            "clientTransferProhibited"
+          ],
+          "emails": "abuse@dynadot.com",
+          "dnssec": "unsigned",
+          "name": "REDACTED FOR PRIVACY",
+          "org": "Dynadot Privacy Service",
+          "address": "PO Box 701",
+          "city": "San Mateo",
+          "state": "California",
+          "registrant_postal_code": "94401",
+          "country": "US"
+        },
+        "ssl": {
+          "peername": [
+            "198.199.105.242",
+            "443"
+          ],
+          "SAN": [
+            "www.emailondeck.com"
+          ],
+          "hostname": "www.emailondeck.com",
+          "commonname": "www.emailondeck.com",
+          "notbefore": "2023-02-13 16:30:23",
+          "notafter": "2023-05-14 16:30:22",
+          "issuer": "R3"
+        },
+        "social_media": null
+      },
+      "fraud_urls_found": []
+    }
+  }
+}

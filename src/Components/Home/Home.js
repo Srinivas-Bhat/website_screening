@@ -1,8 +1,45 @@
-import { Box, IconButton, InputBase, Paper, Typography } from '@mui/material';
+import { Box, Button, CircularProgress, IconButton, InputBase, Paper, Typography } from '@mui/material';
 import React from 'react';
 import SearchIcon from "@mui/icons-material/Search";
+import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
-const Home = ({searchInput,setSearchInput,handleSearchClick,handleSearchChange,searchInputError}) => {
+const Home = ({
+  searchInput,
+  setSearchInput,
+  handleSearchClick,
+  handleSearchChange,
+  searchInputError,
+  apiData,
+  loading,
+  setApiDataCompleted,
+  setStateLoading,
+  stateLoading,
+  setApiData,
+}) => {
+  const navigate = useNavigate();
+  const handleScreeningCompleteClick = () => {
+    console.log("hello");
+    var config = {
+      method: "POST",
+      url: `https://merchant-website-screening.trustcheckr.com/get-data-from-url`,
+      headers: {
+        "Content-Type": "application/json",
+      },
+      data: {
+        base_url: searchInput,
+      },
+    };
+    axios(config)
+      .then((response) => {
+        console.log(response.data);
+        setApiData(response.data.data.value);
+        navigate("/results");
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
   return (
     <>
       <Box>
@@ -59,9 +96,33 @@ const Home = ({searchInput,setSearchInput,handleSearchClick,handleSearchChange,s
             <SearchIcon sx={{ fontSize: "30px" }} />
           </IconButton>
         </Paper>
+        {stateLoading ? (
+          <Button
+            variant="outlined"
+            onClick={handleScreeningCompleteClick}
+            sx={{
+              position: "absolute",
+              bgcolor: "inherit",
+              color: "white",
+              borderColor: "white",
+              display: "flex",
+              alignItems: "center",
+              top: "60%",
+              left: "25%",
+            }}>
+            {loading || !apiData ? (
+              <>
+                <CircularProgress thickness={4} size={25} /> &nbsp;
+                Please wait
+              </>
+            ) : (
+              "Completed"
+            )}
+          </Button>
+        ) : null}
       </Box>
     </>
   );
-}
+};
 
 export default Home
